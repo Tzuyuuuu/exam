@@ -49,13 +49,13 @@
 
     <!-- Download and Retry Buttons -->
     <div>
-      <el-button type="success" class="download-button">
-        截圖回傳給校長 (ﾉ>ω<)ﾉ
-      </el-button>
+      <!-- <el-button type="success" class="download-button"> -->
+        <span style="font-weight: 900; font-size: 20px; ">⬆ 截圖回傳給校長 (ﾉ>ω<)ﾉ ⬆</span>
+      <!-- </el-button> -->
     </div>
     <div>
       <el-button type="success" @click="retryQuiz" class="download-button">
-        再玩一次（以第一次結果為準！）
+        再玩一次（請回傳第一次結果！）
       </el-button>
     </div>
   </div>

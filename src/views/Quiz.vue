@@ -47,6 +47,7 @@ const startQuiz = () => {
 h2 {
   text-align: center;
   margin-bottom: 20px;
+  max-width: 90%;
 }
 
 .el-button {
