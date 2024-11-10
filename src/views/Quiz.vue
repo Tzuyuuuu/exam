@@ -1,9 +1,19 @@
 <template>
-  <div>
+  <div class="background">
     <h2>
-      聖誕國小新的學期要開始了，同學們紛紛懷著期待的心情來到笑門口，但今天的學笑似乎跟往常有點不同…?
+      聖誕國小新的學期要開始了，同學們紛紛懷著期待的心情來到笑門口，但今天的學笑似乎跟往常有點不同......
     </h2>
-    <el-button type="primary" @click="startQuiz">入學測驗</el-button>
+    <el-button
+      type="success"
+      @click="startQuiz"
+      style="
+        margin-top: 30px;
+        width: 200px; 
+        border-radius: 30px;
+        height: 50px;
+      "
+      >踏入笑門</el-button
+    >
   </div>
 </template>
 
@@ -21,6 +31,19 @@ const startQuiz = () => {
 </script>
 
 <style scoped>
+.background {
+  background-image: url("../assets/background1.png"); /* 添加背景圖片 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
 h2 {
   text-align: center;
   margin-bottom: 20px;
